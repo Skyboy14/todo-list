@@ -2,6 +2,11 @@
 
 A simple Todo List application built with React, Redux, and redux-persist for state persistence.
 
+<img width="960" alt="image" src="https://github.com/Skyboy14/todo-list/assets/96543258/36e85d18-a5e9-460b-8125-a7aad6a82b6b">
+
+<img width="960" alt="image" src="https://github.com/Skyboy14/todo-list/assets/96543258/aa11d162-f6e9-4a62-bad9-bfc073aa25db">
+
+
 ## Features
 
 - View a list of tasks to complete
