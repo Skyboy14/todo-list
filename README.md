@@ -49,7 +49,9 @@ store.js: Redux store configuration.
 
 ## Getting Started
 Clone the repository: git clone https://github.com/Skyboy14/todo-list.git
+
 Install dependencies: npm install
+
 Run the application: npm start
 
 
