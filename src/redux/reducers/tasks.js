@@ -13,9 +13,9 @@ const tasksReducer = (state = initialState, action) => {
                     ...state.tasks,
                     {
                         id: uuidv4(), // Generate a unique ID
-                        name: action.payload,
+                        name: action.payload.taskName,
                         completed: false,
-                        priority: 'low',
+                        priority: action.payload.priority,
                     },
                 ],
             };

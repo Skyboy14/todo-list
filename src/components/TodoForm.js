@@ -18,10 +18,11 @@ const StyledTextField = styled(TextField)`
   margin-right: 10px;
 `;
 
-const PrioritySelect = styled(Select)`
+const PrioritySelect = styled(({ className, ...props }) => (
+    <Select className={className} {...props} />
+))`
   min-width: 120px;
 `;
-
 const TodoForm = ({ addTask }) => {
     const [taskName, setTaskName] = useState('');
     const [priority, setPriority] = useState('low');
