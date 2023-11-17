@@ -39,11 +39,11 @@ A simple Todo List application built with React, Redux, and redux-persist for st
 ```
 
 
-components: Contains React components used in the application.
-redux: Manages Redux-related files.
-actions: Redux action creators.
-reducers: Redux reducers.
-store.js: Redux store configuration.
+#### components: Contains React components used in the application.
+#### redux: Manages Redux-related files.
+#### actions: Redux action creators.
+#### reducers: Redux reducers.
+#### store.js: Redux store configuration.
 
 
 
